@@ -26,9 +26,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: 'IM Fell English', serif;
   font-weight: 700;
+  font-style: italic;
 }
 hr.star-light,
 hr.star-primary {
@@ -81,10 +81,10 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: 'IM Fell English', serif;
   font-weight: 700;
   font-size: 2em;
+  font-style: italic;
 }
 header .intro-text .skills {
   font-size: 1.25em;
@@ -104,10 +104,10 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: #2C3E50;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: 'IM Fell English', serif;
   font-weight: 700;
   border: none;
+  font-style: italic;
 }
 .navbar-custom .navbar-brand {
   color: white;
