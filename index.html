@@ -25,7 +25,10 @@
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css" />
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <style>
@@ -34,9 +37,12 @@
         font-family: 'Nanum Myeongjo';
     }
     header {
+        /*
         background-image: url('./img/first.jpg');
+        background-size: cover;
         min-height: 400px;
         max-height: 636px;
+        */
     }
     header .blank {
         min-height: 200px;
@@ -74,6 +80,32 @@
     }
     .nav-color {
         background-color: #f7d1ab;
+    }
+    .black {
+        color: black;
+    }
+
+    .grdnt {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2e0cb+0,f5d1ab+100 */
+        background: #f2e0cb; /* Old browsers */
+        background: -moz-linear-gradient(top,  #f2e0cb 0%, #f5d1ab 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #f2e0cb 0%,#f5d1ab 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #f2e0cb 0%,#f5d1ab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2e0cb', endColorstr='#f5d1ab',GradientType=0 ); /* IE6-9 */
+
+    }
+    .img-icon {
+        width: 70%;
+        height: 70%;
+    }
+
+    body {
+        font-family: 'IM Fell English', serif;
+    }
+
+    .green {
+        color: #18BC9C;
+        border-color: #18BC9C;
     }
     </style>
 
@@ -124,23 +156,23 @@
 
     <!-- Header -->
     <header>
-        <div class="container" id="maincontent" tabindex="-1">
+        <div class="container grdnt" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <!--
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    -->
+                    <img class="img-icon img-responsive" src="img/first2.png" alt="그대에게 가고싶다.">
+                    <!-- 
                     <div class="blank"></div>
+                    -->
                     <div class="intro-text">
                         <!--
                         <h1 class="name">Greeting</h1>
                         <hr class="star-light">
                         -->
-                        <p class="kor">사랑이란<br />
+                        <p class="kor green">사랑이란<br />
                         또 다른 길을 찾아 두리번거리지 않고<br />
                         그리고 혼자서는 가지 않는 것<br />
                         </p>
-                        <p class="kor small">안도현, 그대에게 가고싶다 中</p>
+                        <p class="kor small green"><i>안도현, 그대에게 가고싶다 中</i></p>
                     </div>
                 </div>  
         </div>
@@ -152,7 +184,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Greeting</h2>
-                    <hr class="star-light">
+                    <hr class="">
                 </div>
             </div>
             <div class="row">
@@ -182,8 +214,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Gallery</h2>
-                    <hr class="star-primary">
+                    <h2 class="green">Gallery</h2>
+                    <hr class="green">
                 </div>
             </div>
             <div class="row">
@@ -257,7 +289,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Promise</h2>
-                    <hr class="star-light">
+                    <hr class="">
                 </div>
             </div>
             <div class="row col-lg-12 text-center">
@@ -281,18 +313,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Location</h2>
-                    <hr class="star-primary">
+                    <h2 class="green">Location</h2>
+                    <hr class="green">
                 </div>
             </div>
             <div class="row col-lg-12 text-center">
                 <div class="col-lg-4">
-                    <p class="kor">경기도 안산시 상록구 한양대학교 55<br />(경기도 안산시 상록구 사동 1271)<br />게스트하우스 <a href="tel:031-436-8000"><i class="fa fa-phone" aria-hidden="true"></i></a></p>
-                        <hr />
-                        <p class="kor">대전 출발 대절 버스 관련 연락처<br/>
+                    <p class="kor green">경기도 안산시 상록구 한양대학교 55<br />(경기도 안산시 상록구 사동 1271)<br />게스트하우스 <a href="tel:031-436-8000"><i class="fa fa-phone" aria-hidden="true"></i></a></p>
+                        <br/>
+                        <p class="kor green">대전 출발 대절 버스 관련 연락처<br/>
                         강명규 <a href="tel:010-4000-0691"><i class="fa fa-phone" aria-hidden="true"></i></a> <a href="sms:010-4000-0691"><i class="fa fa-comments" aria-hidden="true"></i></a><br/>
                         <p>&nbsp;</p>
-                        <p class="kor">
+                        <p class="kor green">
                         대전: 09시 출발<br/>(신탄진 T.G 앞 행복한마을APT 정문)<br/>
                         안산: 14시 대전으로 출발</p>
                 </div>
